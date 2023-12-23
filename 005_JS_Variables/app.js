@@ -1,99 +1,84 @@
 // JavaScript Variables
 /*
  * JavaScript variable names are case-sensitive
- * Variable names cannot contain spaces.
+ ! Variable names cannot contain spaces.
  * Variables cannot be the same as reserved keywords such as `if` or `const`.
  * By convention, JavaScript variable names are written in camelCase.
  * Variables should be given descriptive names that indicate their content and usage (e.g. `sellingPrice` and `costPrice` rather than `x` and `y`).
+ * You can not add number first
+ * _, $ is acceptable but - not accaptable
  */
-
-var fruits = 'Graps';
-let newFruits = 'Graps';
-const newfruits = 'Graps';
-
-// let firstName = 'Ali';
-let firstName = 'Ali';
-firstName = 'Shovo';
-
-let age = 30;
-
-document.getElementById('title').innerText = firstName;
-
-// console.log(firstName);
-// console.log(age);
 
 /*
- * var JavaScript Variable
-? var Hosted
- * You can redeclare
- * You can reassign
- ? Global Scooped
+ * Var Variable
+ * You can re declare
+ * You can re assaign
+ * Global Scooped
+ * var is hosted
  */
-var a = 7;
-a = 11;
-console.log(a);
 
+var a = 10;
+var a = 20;
+a = 'Bangladesh';
 {
-  var lastName = 'Hossain';
-  console.log(lastName);
+  var blocked = '30';
   console.log(a);
 }
-console.log(lastName);
-// var lastName;
-// console.log(lastName);
-// lastName = 'Hossain';
+console.log(blocked);
+
+console.log(a);
+
+let firstName;
+let FirstName;
+
+let fruits = 'Orange';
+
+var country = 'Bangladesh';
+console.log(country);
+
+// var countrys;
+// console.log(countrys);
+// countrys = 'Bangladesh';
+
+console.log(`${fruits} is my fav, ${fruits} I like to eat`);
 
 /*
- * let JavaScript Variable
- ! You can not redeclare
- * You can reassign
+ * let Variable
+ ! You can not re declare
+ * You can re assaign
  ? Block Scooped
+ ! let is not hosted
  */
 
 let b = 10;
 b = 11;
-console.log(b);
-
-// console.log(student);
-// let student = 'Some One';
-
 {
-  let student = 'Some One';
-  console.log(student);
+  console.log(b);
 }
+// console.log(people);
+// let people = 'SomeOne';
 
 /*
- * const JavaScript Variable
- ! You can not redeclare
- ! You can not reassign
+ * const Variable
+ ! You can not re declare
+ ! You can not re assaign
  ? Block Scooped
+ ! const is not hosted
  */
-
 const c = 10;
-// const c = 11;
+{
+  const d = 50;
+  console.log(c);
+  console.log(d);
+}
 
-const people = {
-  personName: 'Ali',
+const person = {
+  firstName: 'Ali',
   age: 30,
 };
-people.dateOfBirth = 1991;
-people.age = 1991;
+person.country = 'Bangladesh';
+person.age = 32;
 
-// people = 'Bangladesh';
-console.log(c);
-console.log(people);
+console.log(person);
 
-{
-  const country = 'Bangladesh';
-  console.log(country);
-}
-const country = 'Bangladesh';
-
-let story = "I'm ali Hossain";
-let info = `I am from ${country}`;
-console.log(story);
-console.log(story + info);
-
-// console.log(
-//   `Like the crisp bite of a freshly harvested ${fruits}, innovation is the core that fuels ${fruits}'s extraordinary journey. In the orchard of technology, ${fruits}'s relentless pursuit of excellence bears fruit tenfold, shaping the world with each crisp idea. Every ${fruits} product is a testament to the company's tenacious commitment to blending artistry with technology. Through tenacious innovation, ${fruits} not only redefines industries but also crafts experiences that are as polished as the surface of a perfectly ripe ${fruits}. It's in the symmetry of the ${fruits} logo, the precision of the hardware, and the elegance of the software that the tenacious spirit of ${fruits} truly shines. `
-// );
+let $firstName1 = 'Shovo';
