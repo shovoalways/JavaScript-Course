@@ -1,0 +1,89 @@
+1. What type of operators are used for basic mathematical calculations in JavaScript?
+   - a) Comparison operators
+   - b) Arithmetic operators
+   - c) Logical operators
+   - d) Assignment operators
+
+2. Which operator is used to assign a value to a variable in JavaScript?
+   - a) Comparison operator
+   - b) Logical operator
+   - c) Assignment operator
+   - d) Ternary operator
+
+3. What does the `%` operator do in JavaScript?
+   - a) Finds the average
+   - b) Raises a number to a power
+   - c) Returns the remainder of a division
+   - d) Performs concatenation
+
+4. Which operator is used for making decisions in a single line in JavaScript?
+   - a) Logical operator
+   - b) Assignment operator
+   - c) Arithmetic operator
+   - d) Ternary operator
+
+5. What is the purpose of the `===` operator in JavaScript?
+   - a) Checks if two values are approximately equal
+   - b) Checks if two values are equal in both value and type
+   - c) Compares two values alphabetically
+   - d) Assigns a value to a variable
+
+6. What will the following expression evaluate to: `10 + "5"`?
+   - a) 15
+   - b) 105
+   - c) "105"
+   - d) Error
+
+7. Which logical operator returns `true` if at least one of the conditions is true?
+   - a) `&&`
+   - b) `||`
+   - c) `!`
+   - d) `??`
+
+8. What does the `!==` operator check for in JavaScript?
+   - a) Checks if two values are not equal
+   - b) Checks if two values are not approximately equal
+   - c) Checks if two values are not equal in both value and type
+   - d) Checks if two values are not identical
+
+9. What is the result of the expression `5 * "2"`?
+   - a) 7
+   - b) 10
+   - c) "52"
+   - d) 25
+
+10. Which operator is used to combine two or more strings in JavaScript?
+    - a) `+`
+    - b) `*`
+    - c) `/`
+    - d) `+=`
+
+11. What is the purpose of the `!` operator in JavaScript?
+    - a) Finds the factorial of a number
+    - b) Performs bitwise NOT operation
+    - c) Negates a boolean value
+    - d) Exponentiation
+
+12. Which comparison operator is used to check if one value is greater than or equal to another?
+    - a) `=`
+    - b) `<=`
+    - c) `>=`
+    - d) `>=`
+
+13. What is the result of the expression `true && false`?
+    - a) `true`
+    - b) `false`
+    - c) `false`
+    - d) `true`
+
+14. What is the purpose of the `?:` in JavaScript?
+    - a) Assignment
+    - b) Comparison
+    - c) Logical operation
+    - d) Ternary (Conditional) operator
+
+15. Which assignment operator is used to add and assign in one step?
+    - a) `+=`
+    - b) `-=`
+    - c) `*=`
+    - d) `/=`**
