@@ -1,0 +1,61 @@
+1. Which of the following is NOT a primitive data type in JavaScript?
+a) Number
+b) String
+c) Object 
+d) Boolean
+
+2. What is the value of typeof null?
+a) "null"   
+b) "object"
+c) "undefined"
+d) "unknown"
+
+
+3. What is the correct way to declare a variable in JavaScript?
+a) let variableName;
+b) var variableName;
+c) const variableName;
+d) All of the above   
+
+4. What is the difference between let and const?
+a) let variables can be reassigned, while const variables cannot.
+b) const variables are always global, while let variables can be local.
+c) let variables are block-scoped, while const variables are function-scoped.
+d) There is no difference.
+
+5. What is the result of 5 + "5"?
+a) 10
+b) "55" 
+c) "5 5"
+d) NaN
+
+6. Which of the following is a valid way to create an array in JavaScript?
+a) let arr = Array();
+b) let arr = [];
+c) let arr = new Array();
+d) All of the above   
+
+7. What is the value of arr[1] in the following array?
+let arr = [10, 20, 30];
+a) 10
+b) 20  
+c) 30
+d) undefined
+
+8. What is the value of typeof NaN?
+a) "number"  
+b) "NaN"
+c) "undefined"
+d) "error"
+
+9. What is the data type of true?
+a) "true"
+b) "boolean" 
+c) "1"
+d) "truthy"
+
+10. How can you determine the data type of a variable?
+a) typeof variableName 
+b) variableName.type
+c) console.log(variableName)
+d) dataTypeOf(variableName)
