@@ -7,8 +7,8 @@ d) Boolean
 Explanation: Objects are reference types, while Number, String, and Boolean are primitive types.
 
 2. What is the value of typeof null?
-a) "null"   ✔️
-b) "object"
+a) "null"   
+b) "object" ✔️
 c) "undefined"
 d) "unknown"
 

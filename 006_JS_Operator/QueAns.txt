@@ -83,7 +83,7 @@
     - **d) Ternary (Conditional) operator
 
 15. Which assignment operator is used to add and assign in one step?
-    - a) `+=`
+    - **a) `+=` 
     - b) `-=`
     - c) `*=`
-    - **d) `/=`**
+    - d) `/=`**
