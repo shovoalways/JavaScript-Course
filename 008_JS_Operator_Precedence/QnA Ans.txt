@@ -1,0 +1,119 @@
+1. What is operator precedence in JavaScript?
+   a. The order in which operators are evaluated
+   b. The order in which operators are written
+   c. The order in which functions are executed
+   d. The order in which variables are declared
+
+Answer: a. The order in which operators are evaluated
+
+2. Which operator has the highest precedence in JavaScript?
+   a. Addition (+)
+   b. Multiplication (*)
+   c. Assignment (=)
+   d. Logical OR (||)
+
+Answer: b. Multiplication (*)
+
+3. What is the result of the following expression: 5 + 3 * 2?
+   a. 16
+   b. 11
+   c. 10
+   d. 26
+
+Answer: b. 11
+
+4. What is the purpose of parentheses in an expression?
+   a. To set the order of evaluation
+   b. To indicate comments
+   c. To define variables
+   d. To create arrays
+
+Answer: a. To set the order of evaluation
+
+5. What is the correct operator precedence for the following expression: 8 + 4 / 2?
+   a. Addition, Division
+   b. Division, Addition
+   c. Addition, Subtraction
+   d. Multiplication, Division
+
+Answer: b. Division, Addition
+
+6. Which operator is right-associative in JavaScript?
+   a. +
+   b. =
+   c. **
+   d. %
+
+Answer: c. ** (Exponentiation operator)
+
+7. What is the result of the expression: 10 / 2 * 3?
+   a. 15
+   b. 30
+   c. 5
+   d. 20
+
+Answer: a. 15
+
+8. Which logical operator has higher precedence: AND (&&) or OR (||)?
+   a. AND (&&)
+   b. OR (||)
+   c. They have the same precedence
+   d. Depends on context
+
+Answer: a. AND (&&)
+
+9. What is the result of the expression: 2 + 2 * 3 - 1?
+   a. 9
+   b. 7
+   c. 8
+   d. 10
+
+Answer: a. 9
+
+10. Which of the following is an example of a unary operator?
+    a. +
+    b. -
+    c. *
+    d. /
+
+Answer: b. - (Negation)
+
+11. What is the result of the expression: (5 + 3) * 2?
+    a. 16
+    b. 10
+    c. 18
+    d. 26
+
+Answer: c. 18
+
+12. In the expression 3 + 4 * 2, which operation is performed first?
+    a. Addition
+    b. Multiplication
+    c. Division
+    d. Subtraction
+
+Answer: b. Multiplication
+
+13. Which of the following is the correct order of precedence for the operators: +, *, /, -?
+    a. +, *, /, -
+    b. *, /, +, -
+    c. /, *, +, -
+    d. -, +, *, /
+
+Answer: b. *, /, +, -
+
+14. What is the result of the expression: 4 * (2 + 3)?
+    a. 14
+    b. 20
+    c. 18
+    d. 25
+
+Answer: b. 20
+
+15. What is the purpose of the modulo operator (%) in JavaScript?
+    a. It returns the remainder of a division
+    b. It performs exponentiation
+    c. It performs bitwise AND
+    d. It compares two values for equality
+
+Answer: a. It returns the remainder of a division
