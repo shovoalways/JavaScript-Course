@@ -84,7 +84,7 @@ Answer: b. - (Negation)
     c. 18
     d. 26
 
-Answer: c. 18
+Answer: a. 16
 
 12. In the expression 3 + 4 * 2, which operation is performed first?
     a. Addition
@@ -110,7 +110,7 @@ Answer: b. *, /, +, -
 
 Answer: b. 20
 
-15. What is the purpose of the modulo operator (%) in JavaScript?
+15. What is the purpose of the Modulus operator (%) in JavaScript?
     a. It returns the remainder of a division
     b. It performs exponentiation
     c. It performs bitwise AND
