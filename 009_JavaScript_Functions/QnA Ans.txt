@@ -1,0 +1,95 @@
+01. What is the main job of JavaScript functions?
+
+a) Styling the webpage  
+b) Organizing and reusing code  
+c) Writing comments in code  
+d) Creating variables
+
+Answer: b) Organizing and reusing code
+
+02. How do you declare a function in JavaScript?
+
+a) `func`  
+b) `function`  
+c) `def`  
+d) `declare`
+
+Answer: b) `function`
+
+03. What does IIFE stand for in JavaScript?
+
+a) Immediate Invoked Function Expression  
+b) Instant Inline Function Execution  
+c) Inline Immediate Function Execution  
+d) Instant Invoked Function Event
+
+Answer: a) Immediate Invoked Function Expression
+
+
+04. Why might you use a self-invoking function in JavaScript?
+
+a) To improve performance  
+b) To create a private scope  
+c) To enhance debugging  
+d) All of the above
+
+Answer: b) To create a private scope
+
+
+05. How do you pass arguments to a self-invoking function?
+
+a) By using parentheses at the end  
+b) By using square brackets  
+c) By separating arguments with commas  
+d) By using curly braces
+
+Answer: a) By using parentheses at the end
+
+
+06. What keyword is used to define parameters in a function?
+
+a) `param`  
+b) `argument`  
+c) `input`  
+d) `var`
+
+Answer: b) `argument`
+
+
+07. What does the `return` statement in a function do?
+
+a) Terminates the function execution  
+b) Defines function parameters  
+c) Specifies the function name  
+d) Returns a value from the function
+
+Answer: d) Returns a value from the function
+
+08. Which ES6 feature provides a concise syntax for writing functions?
+
+a) Class Syntax  
+b) Arrow Functions  
+c) Template Literals  
+d) Destructuring Assignment
+
+Answer: b) Arrow Functions
+
+
+
+09. What method is commonly used to handle events in JavaScript?
+
+a) `handleEvent()`  
+b) `eventListener()`  
+c) `addEventListener()`  
+d) `eventHandler()`
+
+Answer: c) `addEventListener()`
+
+10. What is the primary purpose of JavaScript functions?
+
+a) Code styling
+b) Code organization and reusability
+c) Code comments
+d) Code compilation
+
+Answer: b) Code organization and reusability
