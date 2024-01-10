@@ -42,7 +42,7 @@ document.getElementById('btn').addEventListener('click', isSubscribed);
 let maths = function (x, y) {
   console.log('Testing if I am working of not');
   return x * y;
-  // return;
+  // return undefined;
 };
 console.log(maths(3, 4));
 console.log(maths(4, 4));
