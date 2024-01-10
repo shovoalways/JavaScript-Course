@@ -1,7 +1,10 @@
 // JavaScript Functions
 
 /* ==============================
+* Code-Driven Invocation:
 ? Functioned is invoked (called)
+* Called directly from other parts of the JavaScript code.
+* Used for tasks like calculations, data manipulation, and logic execution.
 ================================ */
 function myFunction(fullName, age, dateOfBirth = 1991) {
   console.log(
@@ -12,7 +15,10 @@ myFunction('Ali', 30, 1995);
 myFunction('Shovo', 35, true);
 
 /* =============================
+* Event-Driven Invocation
 ? Function When an event occurs
+* Triggered by user interactions or system events.
+* Common events: button clicks, form submissions, page loads, etc.
 =============================== */
 function isSubscribed() {
   console.log('Subcribed');
@@ -20,7 +26,9 @@ function isSubscribed() {
 document.getElementById('btn').addEventListener('click', isSubscribed);
 
 /* ====================================
-? Automatically (self invoked Function)
+? Automatic (Self-Invoked) Invocation
+* Executes immediately after being defined.
+* Commonly used with Immediately Invoked Function Expressions (IIFEs).
 ======================================= */
 (function (message) {
   console.log('I am self-Invokeing Function', message);
