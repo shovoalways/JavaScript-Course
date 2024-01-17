@@ -1,0 +1,127 @@
+1. What is the correct way to create an object literal in JavaScript?
+
+a) const obj = new Object();
+b) const obj = { key: value };
+c) const obj = obj();
+d) const obj = function() {};
+
+Answer: b
+
+2. What is the output of the following code?
+
+const obj = { name: 'John' };
+console.log(obj.name);
+
+
+a) John
+b) undefined
+c) Error
+d) obj
+
+Answer: a
+
+3. Which of the following is a valid way to access a property of an object?
+
+a) Dot notation (obj.property)
+b) Bracket notation (obj['property'])
+c) Both a and b
+d) Neither a nor b
+
+Answer: c
+
+4. How can you add a new property to an existing object?
+
+a) obj.newProperty = 'value';
+b) obj['newProperty'] = 'value';
+c) Both a and b
+d) Neither a nor b
+
+Answer: c
+
+5. What is the difference between a key and a value in an object?
+
+a) A key is a string that identifies a property, while a value can be any data type.
+b) A key can be any data type, while a value is a string.
+c) Keys and values are the same thing.
+d) There is no difference between keys and values.
+
+Answer: a
+
+6. What is the purpose of the Object.freeze() method?
+
+a) To prevent an object from being modified.
+b) To convert an object to a string.
+c) To create a new object from an existing object.
+d) To delete an object.
+
+Answer: a
+
+7. What is the difference between an object literal and a constructor function?
+
+a) An object literal creates a single object, while a constructor function can be used to create multiple objects.
+b) An object literal is a function, while a constructor function is not.
+c) There is no difference between object literals and constructor functions.
+d) Object literals are always frozen, while constructor functions are not.
+
+Answer: a
+
+8. What is the output of the following code?
+
+const obj = { a: 1, b: 2 };
+console.log(Object.keys(obj));
+
+a) ['a', 'b']
+b) [1, 2]
+c) { a: 1, b: 2 }
+d) undefined
+
+Answer: a
+
+9. What is the output of the following code?
+
+JavaScript
+const obj = { a: 1, b: 2 };
+console.log(Object.values(obj));
+
+a) ['a', 'b']
+b) [1, 2]
+c) { a: 1, b: 2 }
+d) undefined
+
+Answer: b
+
+10. What is the purpose of the hasOwnProperty() method?
+
+a) To check if an object has a specific property.
+b) To create a new property on an object.
+c) To delete a property from an object.
+d) To convert an object to a string.
+
+Answer: a
+
+11. How can you combine multiple objects into a single object?
+
+a) Use the spread operator (...).
+b) Use the Object.assign() method.
+c) Both a and b.
+d) Neither a nor b.
+
+Answer: c
+
+12. How can you create a constructor function for an object?
+ 
+Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+const person1 = new Person("John", 30);
+console.log(person1.name); // Output: John
+
+
+a) This code defines a constructor function called Person that takes two arguments: name and age. It assigns these arguments to properties of the newly created object.
+b) This code creates a new object called person1 using the Person constructor and sets its name property to "John" and its age property to 30.
+c) Both a and b are correct.
+d) Neither a nor b is correct.
+
+Answer: c
