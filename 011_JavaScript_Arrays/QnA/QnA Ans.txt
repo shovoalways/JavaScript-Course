@@ -1,0 +1,132 @@
+1. How do you declare an empty array in JavaScript?
+
+a) []
+b) {}
+c) new Array()
+d) All of the above
+
+Answer: a {[] is best practice you know}
+
+2. What is the correct syntax to access an element in an array by its index?
+
+a) array[index]
+b) array.index
+c) get(array, index)
+d) index.array
+
+Answer: a
+
+3. How many elements are there in the array const colors = ["red", "blue", "green"];?
+
+a) 2
+b) 3
+c) 1
+d) 0
+
+Answer: b
+
+4. What will the following code print? const numbers = [1, 2, 3]; console.log(numbers.length);
+
+a) "1, 2, 3"
+b) 2 
+c) 3
+d) undefined
+
+Answer: c
+
+5. Which function adds an element to the end of an array?
+
+a) push()
+b) add()
+c) append()
+d) insert(element, index)
+
+Answer: a
+
+6. Which function removes the last element from an array?
+
+a) pop()
+b) remove()
+c) delete()
+d) take()
+
+Answer: a
+
+7. What does the following code do? const fruits = ["apple", "banana", "orange"]; fruits.unshift("mango");
+
+a) It removes the first element.
+b) It adds "mango" to the end of the array.
+c) It adds "mango" to the beginning of the array.
+d) It sorts the array alphabetically.
+
+Answer: c
+
+8. What is the syntax to loop through each element of an array using a for loop?
+
+a) for (element in array) {...}
+b) for (i = 0; i < array.length; i++) {...}
+c) for (const element of array) {...}
+d) All of the above
+
+Answer: a [We will learn this later 😊]
+
+9. Which method combines two arrays into one?
+
+a) concat()
+b) merge()
+c) join()
+d) add()
+
+Answer: a
+
+10. What is the difference between an array and a string in JavaScript?
+
+a) Arrays can store any type of data, while strings can only store text. 
+b) Arrays are always ordered, while strings can be unordered.
+c) Arrays are accessed by index, while strings are accessed by character.
+d) All of the above
+
+Answer: a
+
+11. What is the purpose of the slice() method?
+
+a) To remove duplicate elements from an array.
+b) To extract a part of an array and create a new one.
+c) To search for specific elements in an array.
+d) To reverse the order of elements in an array.
+
+Answer: b
+
+12. True or False: Arrays can hold other arrays inside them.
+
+a) True
+b) False
+
+Answer: a
+
+13. What is a common use case for arrays in JavaScript?
+
+a) Storing lists of data, like names, scores, or products.
+b) Performing mathematical calculations.
+c) Manipulating text and strings.
+d) Creating visual elements on a webpage.
+
+Answer: a
+
+14. Which library is commonly used to extend the functionality of arrays in JavaScript?
+
+a) Lodash
+b) Moment.js
+c) Underscore.js
+d) jQuery
+
+Answer: c
+
+15. What is a good way to practice working with arrays in JavaScript?
+
+a) Solve coding challenges that involve manipulating arrays.
+b) Experiment with different array methods in the console.
+c) Build small projects that use arrays to store and manage data.
+d) All of the above 
+
+Answer: d
