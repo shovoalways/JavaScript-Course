@@ -1,0 +1,107 @@
+1. What is an event in JavaScript?
+
+a) A keyboard key press (e.g., pressing "Enter")
+b) A user interaction with a web page element (e.g., clicking a button)
+c) An action that happens within the browser (e.g., page loading)
+d) All of the above
+
+Answer: d
+
+2. What is an event listener in JavaScript?
+
+a) A code snippet that listens for specific events on elements
+b) A special function that responds to keyboard input
+c) A browser setting that controls how events are handled
+d) None of the above
+
+Answer: a
+
+3. How do you attach an event listener to an element using JavaScript?
+
+a) element.addEventListener(eventName, eventHandlerFunction);
+b) element.addEvent(eventName, eventHandlerFunction);
+c) element.on(eventName, eventHandlerFunction);
+d) All of the above
+
+Answer: a (although element.on(eventName, eventHandlerFunction) is a simplified shortcut)
+
+4. What is the click event?
+
+a) The event that occurs when the mouse hovers over an element
+b) The event that occurs when the mouse button is pressed and released on an element
+c) The event that occurs when the mouse button is pressed down on an element
+d) The event that occurs when the mouse wheel is scrolled
+
+Answer: b
+
+5. What is the mouseover event?
+
+a) The event that occurs when the mouse moves over an element
+b) The event that occurs when the mouse button is pressed and released on an element
+c) The event that occurs when the mouse button is pressed down on an element
+d) The event that occurs when the mouse wheel is scrolled
+
+Answer: a
+
+6. What is the difference between onclick and addEventListener?
+
+a) onclick is deprecated, while addEventListener is the modern way.
+b) onclick only works with click events, while addEventListener can handle any event.
+c) onclick is less efficient than addEventListener.
+d) All of the above
+
+Answer: b
+
+7. What is the preventDefault() method used for?
+
+a) To prevent an event from being handled by the default browser behavior
+b) To stop an event from bubbling up to parent elements
+c) To cancel an event after it has started
+d) None of the above
+
+Answer: a  (I missed explaining this 😔 Should I explain this in the next video?)
+
+8. What is the stopPropagation() method used for?
+
+a) To prevent an event from being handled by the default browser behavior
+b) To stop an event from bubbling up to parent elements
+c) To cancel an event after it has started
+d) None of the the above
+
+Answer: b  (I missed explaining this 😔 Should I explain this in the next video?)
+
+9. What is the event object?
+
+a) A special object containing information about the event that occurred
+b) A function that can be used to trigger events
+c) A property of the element that triggered the event
+d) A global variable that stores event data
+
+Answer: a
+
+10. What is the target property of the event object used for?
+
+a) To identify the element that triggered the event
+b) To get the coordinates of the event (e.g., mouse position)
+c) To access the type of event (e.g., "click")
+d) To stop the event from propagating
+
+Answer: a
+
+11. How can you handle keyboard events like pressing a key?
+
+a) Use the onkeydown event listener
+b) Use the keypress event listener
+c) Use the keyup event listener
+d) Any of the above
+
+Answer: a or c (both events capture key presses, with slight differences in timing)
+
+12. How can you handle form submission events?
+
+a) Use the onsubmit event listener on the form element
+b) Use the onsubmit event listener on the submit button
+c) Use the submit() method on the form element
+d) All of the above
+
+Answer: a
