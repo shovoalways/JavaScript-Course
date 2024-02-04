@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  background: #ee5253;
+  padding: 15px 60px;
+  color: #fff;
+  margin: 20px 50px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #6ab04c;
+}
+
+div {
+  background: #6ab04c;
+  width: 300px;
+  height: 300px;
+}
+#ludo {
+  width: 200px;
+}

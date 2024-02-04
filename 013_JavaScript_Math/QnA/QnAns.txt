@@ -1,0 +1,107 @@
+1. Which function rounds a number to the nearest integer?
+
+a) Math.abs()
+b) Math.random()
+c) Math.round()
+d) Math.ceil()
+
+Ans: C
+
+2. What is the square root of 64 calculated using the provided code?
+
+a) 4
+b) 8
+c) 16
+d) 32
+
+Ans: B
+
+3. How do you generate a random number between 0 and 9 in JavaScript using the provided code?
+
+a) Math.random() * 10
+b) Math.floor(Math.random() * 10)
+c) Math.ceil(Math.random() * 10) - 1
+d) Math.random().toFixed(2) * 10
+
+Ans: B
+
+4. What is the purpose of the Math.max() function?
+
+a) To round a number
+b) To calculate the absolute value
+c) To find the largest number
+d) To generate a random number
+
+Ans: C
+
+5. What is the output of Math.PI in the provided code?
+
+a) 2.71828
+b) 3.14159
+c) Approximately 3.14
+d) It varies depending on the input
+
+Ans: B
+
+6. What is the purpose of the rollDice() function?
+
+a) To roll a physical die
+b) To simulate rolling a die and display the result
+c) To calculate the probability of rolling a specific number
+d) To access dice images
+
+Ans: C
+
+7. What does the line Math.ceil(Math.random() * (upperValue - lowerValue) + lowerValue) do?
+
+a) Rounds a random number to the nearest integer
+b) Generates a random number between lowerValue and upperValue
+c) Calculates the absolute value of a random number
+d) Finds the maximum value in a set of random numbers
+
+Ans: B
+
+8. How does the code update the image source in the ludo game?
+
+a) By changing the image itself
+b) By calling the rollDice() function multiple times
+c) By setting the src attribute of an image element
+d) By using Math functions to manipulate the image data
+
+Ans: C
+
+9. What is the purpose of the lowerValue and upperValue variables in the ludo game code?
+
+a) To store the player's position
+b) To define the range of possible dice roll values
+c) To track the number of turns played
+d) To access specific dice image files
+
+Ans: B
+
+10. What does the console.log() function do?
+
+a) Generates random numbers
+b) Defines variables
+c) Prints output to the browser console
+d) Updates the game board
+
+Ans: C
+
+11. What is the difference between Math.floor() and Math.ceil()?
+
+a) Both do the same thing.
+b) Math.floor() rounds down, while Math.ceil() rounds up.
+c) Math.floor() calculates the square root, while Math.ceil() finds the absolute value.
+d) They are used for different types of data like strings and numbers.
+
+Ans: B
+
+12. What are some limitations of the provided ludo game code?
+
+a) It requires an internet connection.
+b) It can only be played with one player.
+c) It doesn't track player movement on the board.
+d) All of the above
+
+Ans: C
