@@ -1,0 +1,25 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  text-align: center;
+}
+h2 span {
+  background: orange;
+  padding: 5px 10px;
+}
+button {
+  background: #ee5253;
+  padding: 15px 60px;
+  color: #fff;
+  margin: 20px 50px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #6ab04c;
+}
