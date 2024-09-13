@@ -1,0 +1,17 @@
+body {
+  background: #262626;
+  color: #fff;
+}
+h1 span {
+  background: orange;
+  color: #000;
+}
+.text-xl {
+  font-size: 50px;
+}
+.text-red {
+  color: red;
+}
+.text-yellow {
+  color: yellow;
+}
