@@ -1,45 +1,39 @@
-// console.log(window);
-// console.log(window.document);
-// console.log(document);
-// console.log(document.baseURI);
-// console.log(document.links);
-// console.log(document.links[1]);
+// document.querySelector('h1').innerText = 'Subscribe';
+// document.querySelector('h1').innerText;
+// ('Welcome');
+// document.querySelector('h1').textContent;
+// ('Welcome Ali');
+// document.querySelector('h1').innerHTML;
+// ('Welcome <span style="display: none;">Ali</span>');
 
-// document.querySelector('.title').innerText = 'Watching movie is fun';
-// document.querySelector('.title').textContent = 'Watching movie is fun';
-// document.querySelector('.title').innerHTML = '<span>Hacker 😂</span>';
+const box = document.querySelector('.box');
+box.style.backgroundColor = 'red';
+box.style.width = '100px';
+box.style.height = '100px';
 
-// console.log(document.querySelector('.title').id);
-// console.log(document.querySelector('.title').className);
-
-// console.log(document.querySelector('.title').getAttribute('id'));
-
-// document.querySelector('p').setAttribute('class', 'text-red text-xl');
-// document.getElementById('title').setAttribute('class', 'text-red text-xl');
-
-// const nothing = [0, 1, 2, 3];
+document.getElementById('box').style.backgroundColor = 'blue';
 
 const menuItem = document.querySelectorAll('a');
-// menuItem[0].style.color = '#fff';
-// menuItem[1].style.color = '#fff';
+// menuItem[2].style.color = 'red';
 menuItem.forEach(function (i) {
-  i.style.color = '#fff';
+  i.style.color = 'red';
+  i.style.fontSize = '24px';
 });
 
-const cusClass = document.getElementsByClassName('title');
-
-// cusClass.forEach(function (i) {
-//   console.log(i);
-// });
+const cusClass = document.getElementsByClassName('nav-link');
 
 const convertedClass = Array.from(cusClass);
-
-// for (let i = 0; i < convertedClass.length; i++) {
-//   console.log(convertedClass[i]);
+// for (let i = 0; i < cusClass.length; i++) {
+//   console.log(cusClass[i]);
 // }
-
 convertedClass.forEach(function (i) {
-  i.style.color = '#ff0000';
+  i.style.backgroundColor = '#262626';
+  i.style.margin = '0 0 15px';
+  i.style.padding = '10px 20px';
 });
 
-document.getElementsByTagName();
+// document.querySelector('.box').id;
+// document.querySelector('.box').className;
+
+document.querySelector('.box').getAttribute('id');
+document.querySelector('.cta').setAttribute('class', 'text-white cta');

@@ -1,17 +1,13 @@
-body {
-  background: #262626;
-  color: #fff;
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h1 span {
-  background: orange;
-  color: #000;
+.text-white {
+  color: green;
 }
-.text-xl {
-  font-size: 50px;
-}
-.text-red {
-  color: red;
-}
-.text-yellow {
-  color: yellow;
+
+.cta {
+  background: aqua;
+  padding: 10px 20px;
+  width: 200px;
 }
